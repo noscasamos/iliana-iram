@@ -43,7 +43,7 @@ div.container-fluid{
 
 .portada{
 width: 100%;
-height: 700px;
+height: 850px;
 margin-top: 0px;
 margin-bottom: 0px;
 position: center;
@@ -166,7 +166,7 @@ font-family: 'Arizonia', cursive;
 }
 .portada{
 width: 100%;
-height: 700px;
+height: 850px;
 margin-top: 0px;
 margin-bottom: 0px;
 position: center;
@@ -230,7 +230,7 @@ font-family: 'Arizonia', cursive;
 }
 .portada{
 width: 100%;
-height: 600px;
+height: 750px;
 margin-top: 0px;
 margin-bottom: 0px;
 position: center;
@@ -1464,7 +1464,7 @@ margin-top: -100px;
 }
 
 .tornaboda{
-  margin-top: 200px;
+  margin-top: 250px;
 }
 .nom1{
   margin-top: 20px;
@@ -1576,7 +1576,7 @@ display: flex;
 
 #scrub {
   height: 5px;
-  background-color: #b17251;
+  background-color: #8c583c;
   border: none;
   color: hsl(44, 100%, 44%);
   float: left;

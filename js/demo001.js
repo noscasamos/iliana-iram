@@ -9,11 +9,36 @@ window.sr = ScrollReveal();
 
 
 	}); 
+	sr.reveal('#player-container', {
+		duration: 3000, //tiempo
+		delay:700,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
+
+	}); 
+		sr.reveal('.btnComoLlegar', {
+		duration: 2800, //tiempo
+		delay:400,
+		origin: 'bottom', //origen
+		distance: '200px' //distancia
+
+
+	}); 
 	sr.reveal('.tornaboda', {
 		duration: 2800, //tiempo
 		delay:400,
 		origin: 'top', //origen
 		distance: '200px' //distancia
+
+
+	}); 
+	sr.reveal('.tornaboda2', {
+		duration: 2800, //tiempo
+		delay:400,
+		origin: 'top', //origen
+		distance: '100px' //distancia
 
 
 	}); 
@@ -35,9 +60,19 @@ window.sr = ScrollReveal();
 	}); 
 		sr.reveal('.fechaInicio', {
 		duration: 3500, //tiempo
-		delay:1500,
+		delay:1800,
 		origin: 'bottom', //origen
 		distance: '300px' //distancia
+
+
+	}); 
+			sr.reveal('.fechaInicio2', {
+		duration: 3000, //tiempo
+		delay:700,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
+
 
 
 	}); 
