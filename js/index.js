@@ -478,6 +478,9 @@ $(document).ready(function () {
 });
 	
 });
+function confirmaciones() {
+    window.open("https://docs.google.com/spreadsheets/d/1KFW_1vi4KKqBXMbvYfz3sRVKZ03RBrOXMs06YVhboTI/edit?usp=sharing");        
+}
 function personas1() {
     window.open("pases/inicio1.html", "_self");        
 }
