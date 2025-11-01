@@ -42,14 +42,7 @@ div.container-fluid{
 }
 
 
-.nav .nav-item .nav-link{
-  color:#323232;
-}
-.nav .nav-item .nav-link.active{
-  background-color: #FCD4B7;
-  color:#fff;
-  
-}
+
 
 .cliente{
 font-family: 'Playfair Display', serif;
