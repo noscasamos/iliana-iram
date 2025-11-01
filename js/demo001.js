@@ -60,7 +60,7 @@ window.sr = ScrollReveal();
 	}); 
 		sr.reveal('.fechaInicio', {
 		duration: 3500, //tiempo
-		delay:2200,
+		delay:2400,
 		origin: 'bottom', //origen
 		distance: '300px' //distancia
 

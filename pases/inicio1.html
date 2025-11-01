@@ -621,27 +621,27 @@ $(function() {
 
 
 
-    <form class="form-register mt-4 col-11 col-md-6" name="submit-form" id="form-register">
+        <form class="form-register mt-4 col-11 col-md-6" name="submit-form" id="form-register">
         <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#000;  font-family: 'Cormorant Garamond', serif;">Nombre completo del invitado/familia</h2>
-        <input class="controls" type="text" name="Nombres" id="nombres" placeholder="" required>
+        <input class="controls" type="text" name="Nombres" id="nombres" placeholder="" required style="font-family: 'Cantata One', serif;" >
         <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#000;  font-family: 'Cormorant Garamond', serif;">Teléfono</h2>
-        <input class="controls" type="number" name="Telefono" id="telefono" placeholder="" required>
+        <input class="controls" type="number" name="Telefono" id="telefono" placeholder="" required style="font-family: 'Cantata One', serif;">
         <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#000;  font-family: 'Cormorant Garamond', serif;">¿Podrás asistir? Selecciona una opción</h2>
   
-        <select name="¿Asistirá?" id="asistira" class="custom-select2 col-12" style="color: #fff; font-size: 20px; height: 45px;" onchange="habilitar(this.value);">
+        <select name="¿Asistirá?" id="asistira" class="custom-select2 col-12" style="color: #fff; font-size: 20px; height: 45px; font-family: 'Cantata One', serif;" onchange="habilitar(this.value);">
                 <option id="Sí" value="Sí">Sí asistiré.</option>
                 <option id="No" value="No">No asistiré.</option>
         </select>
         <input type="hidden"  name="Contador" value="1">
         <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:#000;  font-family: 'Cormorant Garamond', serif;">De los boletos asignados ¿Cuántos vas a utilizar?</h2>
-        <select name="Boletos a utilizar" class="custom-select2 col-12" id="boletos" style="color: #fff; font-size: 20px; height: 45px;">
+        <select name="Boletos a utilizar" class="custom-select2 col-12" id="boletos" style="color: #fff; font-size: 20px; height: 45px; font-family: 'Cantata One', serif;">
                 <option value="0">0</option>
           
                 
         </select>
     
         <h2 class="formulario col-12 col-lg-12 mt-4 text-left"  style="color:#000;  font-family: 'Cormorant Garamond', serif;">Mensaje para los novios</h2>
-        <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="Mensaje" id="mensaje" placeholder="" required></textarea>
+        <textarea class="controls" type="text"  style="widht: 100%; height: 100px; font-family: 'Cantata One', serif;" name="Mensaje" id="mensaje" placeholder="" required></textarea>
 
         <div class="row justify-content-center">
             <button type="submit" class="btn btn-dark col-8 mb-5 mt-3 text-center" id="botonForm" onclick="bloquear();"><i class="fas fa-envelope mr-2"></i> ENVIAR</button> 
